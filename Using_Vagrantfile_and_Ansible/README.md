@@ -203,7 +203,7 @@ Step 2.2: Kubelet will not start if the system has swap enabled, so we are disab
       service: name=docker state=started
 ```
 ### Step 3: Create the Ansible playbook for Kubernetes node.
-Create a file named node-playbook.yml in the directory kubernetes-setup.
+Create a file named `node-playbook.yml` in the directory kubernetes-setup.
 
 Add the code below into node-playbook.yml
 
